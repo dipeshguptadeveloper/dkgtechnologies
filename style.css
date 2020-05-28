@@ -1,0 +1,97 @@
+#myBTN {
+    display: none;
+    position: fixed;
+    bottom: 34px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #00a8ff;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#myBTN:hover {
+    background: #606060;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    z-index: 900;
+    background-color:#4c4c4c;
+}
+
+#logo{
+    color: white;
+}
+
+#navbar a:hover{
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+a{
+    color: white;
+}
+#gallery .py-24 {
+    padding-top: 11rem;
+    padding-bottom: 6rem;
+}
+
+.py-24 {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+.icons i{
+    color: black;
+    animation: icon-rotate 3s linear;
+}
+
+
+@keyframes icon-rotate{
+    0%
+    {
+        transform: rotate(0);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+i{
+    color: black;
+}
+
+.social-icons a i{
+    margin-right: 15px;
+    align-items: center;
+}
+
+#fb-set:hover{
+    color: #1976e9;
+}
+
+#tw-set:hover{
+    color: rgb(29, 161, 242);
+}
+
+#li-set:hover{
+    color:#0077b5;
+}
+
+#yt-set:hover{
+    color: #ed3833;
+}
+
+#ig-set:hover{
+  
+    color: #ef643e;
+}
+
+.darkmode-toggle{
+    z-index: 998;
+}

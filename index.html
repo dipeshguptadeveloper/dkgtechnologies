@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!--  Bootstrap CSS only -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
+    <title>dkg Technologies</title>
+</head>
+
+
+<body>
+    <!-- header and navigation menu -->
+    <header class="text-black-700 body-font" id="home">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+                    viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl" id="logo">dkg Technologies</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center" id="navbar">
+                <a href="#home" class="mr-5 hover:text-blue-900">Home</a>
+                <!-- <a href="#features" class="mr-5 hover:text-gray-900">Features</a> -->
+                <a href="#services" class="mr-5 hover:text-gray-900">Services</a>
+                <a href="#ourteam" class="mr-5 hover:text-gray-900">Our Team</a>
+                <a href="#pricing" class="mr-5 hover:text-gray-900">Pricing</a>
+                <a href="#about" class="mr-5 hover:text-gray-900">About-Us</a>
+                <a href="#contact" class="mr-5 hover:text-gray-900">Contact-Us</a>
+            </nav>
+            <button class="login-btn"><a href="#">Login</a></button>
+        </div>
+    </header>
+
+
+    <!-- Gallery section -->
+
+    <section class="text-gray-700 body-font" id="gallery">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <div class="flex w-full mb-20 flex-wrap">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Best
+                    Software Products</h1>
+                <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Asperiores fugit magni ullam nisi nihil tempora, illo temporibus repellat
+                    assumenda in placeat vitae odit molestias, quos minus, autem voluptates expedita consequuntur.</p>
+            </div>
+            <div class="flex flex-wrap md:-m-2 -m-1">
+                <div class="flex flex-wrap w-1/2">
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block"
+                            src="https://source.unsplash.com/500x300/?coding,mobile">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block"
+                            src="https://source.unsplash.com/501x301/?software">
+                    </div>
+                    <div class="md:p-2 p-1 w-full">
+                        <img alt="gallery" class="w-full h-full object-cover object-center block"
+                            src="https://source.unsplash.com/600x360/?computer">
+                    </div>
+                </div>
+                <div class="flex flex-wrap w-1/2">
+                    <div class="md:p-2 p-1 w-full">
+                        <img alt="gallery" class="w-full h-full object-cover object-center block"
+                            src="https://source.unsplash.com/601x361/?coding">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block"
+                            src="https://source.unsplash.com/502x302/?coding">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block"
+                            src="https://source.unsplash.com/503x303/?coding">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Features section
+
+    <section class="text-gray-700 body-font" id="features">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="text-center mb-20">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Features</h1>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Blue bottle crucifix vinyl post-ironic
+                    four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.
+                </p>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+                </div>
+            </div>
+            <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+                <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
+                    <div
+                        class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
+                        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast
+                            vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.
+                        </p>
+                        <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
+                    <div
+                        class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                            <circle cx="6" cy="6" r="3"></circle>
+                            <circle cx="6" cy="18" r="3"></circle>
+                            <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
+                        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast
+                            vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.
+                        </p>
+                        <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
+                    <div
+                        class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
+                        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast
+                            vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.
+                        </p>
+                        <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+                <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
+                    <div
+                        class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
+                        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast
+                            vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.
+                        </p>
+                        <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
+                    <div
+                        class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                            <circle cx="6" cy="6" r="3"></circle>
+                            <circle cx="6" cy="18" r="3"></circle>
+                            <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
+                        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast
+                            vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.
+                        </p>
+                        <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
+                    <div
+                        class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
+                        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast
+                            vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.
+                        </p>
+                        <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr> -->
+
+    <!-- Services section -->
+
+    <section class="text-gray-700 body-font" id="services">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Services</h1>
+                <p class="lg:w-1/2 w-full leading-relaxed text-base">We provides diverse software development services
+                    that accomplish the business needs.</p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-300 p-6 rounded-lg">
+                        <div
+                        class="w-10 h-10 inline-flex items-center justify-center rounded-full text-indigo-500 mb-4">
+                        <div class="icons">
+                            <i class="fa fa-desktop fa-3x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Software Consulting</h2>
+                        <p class="leading-relaxed text-base">Our software experts can analyze, evaluate, explore, and
+                            provide you a wide range of cutting-edge solutions.</p>
+                        <div class="items mt-3">
+                            <li>Consultation on Technology</li>
+                            <li>Design & Conceptualization</li>
+                            <li>Planning & Strategy</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-300 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full text-indigo-500 mb-4">
+                            <div class="icons">
+                                <i class="fa fa-mobile fa-4x" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Custom Software Development</h2>
+                        <p class="leading-relaxed text-base">Our technical experts are concentrated on developing
+                            customer-oriented custom software solutions.</p>
+                        <div class="items mt-3">
+                            <li>Mobile application solutions</li>
+                            <li>Web application solutions</li>
+                            <li>UI/UX</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-300 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full text-indigo-500 mb-4">
+                            <div class="icons">
+                                <i class="fa fa-cloud fa-3x" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Enterprise Software Solution</h2>
+                        <p class="leading-relaxed text-base">As a software development company India, we deliver
+                            enterprise software solutions that meet all your business requirements.</p>
+                        <div class="items mt-3">
+                            <li>Enterprise mobility</li>
+                            <li>Cloud solutions</li>
+                            <li>End-to-end security</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-300 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full text-indigo-500 mb-4">
+                            <div class="icons">
+                                <i class="fa fa-bug fa-3x" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Maintenance & Support</h2>
+                        <p class="leading-relaxed text-base">To resolve all our customers’ business issues in real-time,
+                            we provide 24*7 maintenance & support service.</p>
+                        <div class="items mt-3">
+                            <li>Proactive software maintenance service</li>
+                            <li>On-going bug fixed</li>
+                            <li>Devops</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-300 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full text-indigo-500 mb-4">
+                            <div class="icons">
+                                <i class="fa fa-tablet fa-3x" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Custom UI Design</h2>
+                        <p class="leading-relaxed text-base">Our skilled and proficient team of UI designers is in total
+                            sync with the need of developing cost-effective, intuitive & user-friendly mobile UI
+                            Designs.</p>
+                        <div class="items mt-3">
+                            <li>Wireframing, mocking up, and prototyping</li>
+                            <li>A lightning-fast and pixel-perfect UI</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-300 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full text-indigo-500 mb-4">
+                            <div class="icons">
+                                <i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Offshore Development Process</h2>
+                        <p class="leading-relaxed text-base">Collaborate with us to get top-notch and innovative
+                            foremost software solutions at the most economical rates.</p>
+                        <div class="items mt-3">
+                            <li>On-time delivery</li>
+                            <li>Privacy</li>
+                            <li>Dedicated staff</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Our Team section -->
+
+
+    <section class="text-gray-700 body-font" id="ourteam">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">We boast of some of the best minds and talent in the country. They comprise of management graduates, software engineers, programmers, web developers, instructional designers, business analysts, project managers, software developers, testers, graphic designers, sales and marketing professionals and writers.
+                </p>
+            </div>
+            <div class="flex flex-wrap -m-2">
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/80x80">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-900 title-font font-medium">Holden Caulfield</h2>
+                            <p class="text-gray-500">UI Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/84x84">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-900 title-font font-medium">Henry Letham</h2>
+                            <p class="text-gray-500">CTO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/88x88">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-900 title-font font-medium">Oskar Blinde</h2>
+                            <p class="text-gray-500">Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/90x90">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-900 title-font font-medium">John Doe</h2>
+                            <p class="text-gray-500">DevOps</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/94x94">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-900 title-font font-medium">Martin Eden</h2>
+                            <p class="text-gray-500">Software Engineer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/98x98">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-900 title-font font-medium">Boris Kitua</h2>
+                            <p class="text-gray-500">UX Researcher</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/100x90">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-900 title-font font-medium">Atticus Finch</h2>
+                            <p class="text-gray-500">QA Engineer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/104x94">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-900 title-font font-medium">Alper Kamu</h2>
+                            <p class="text-gray-500">System</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/108x98">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-900 title-font font-medium">Rodrigo Monchi</h2>
+                            <p class="text-gray-500">Product Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <!-- Pricing section -->
+
+    <section class="text-gray-700 body-font overflow-hidden" id="pricing">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Pricing</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+                    asymmetrical.</p>
+                <div class="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6">
+                    <button class="py-1 px-4 bg-indigo-500 text-white focus:outline-none">Monthly</button>
+                    <button class="py-1 px-4 focus:outline-none">Annually</button>
+                </div>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                        <h2 class="text-sm tracking-widest title-font mb-1 font-medium">START</h2>
+                        <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Free</h1>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>100mb Disk Space
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>5 Subdomains
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>5 Email Accounts
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Webmail Support
+                        </p>
+                        <button
+                            class="flex items-center mt-auto text-white bg-gray-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-600 rounded">Choose
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+                        <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div
+                        class="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
+                        <span
+                            class="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
+                        <h2 class="text-sm tracking-widest title-font mb-1 font-medium">PRO</h2>
+                        <h1
+                            class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                            <span>$38</span>
+                            <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+                        </h1>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>200mb Disk Space
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>10 Subdomains
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>10 Email Accounts
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Webmail Support
+                        </p>
+                        <button
+                            class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Buy
+                            Now
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+                        <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                        <h2 class="text-sm tracking-widest title-font mb-1 font-medium">BUSINESS</h2>
+                        <h1
+                            class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                            <span>$56</span>
+                            <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+                        </h1>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>500mb Disk Space
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>25 Subdomains
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>50 Email Accounts
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Webmail Support
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>5gb Cloud Storage
+                        </p>
+                        <button
+                            class="flex items-center mt-auto text-white bg-gray-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-600 rounded">Buy
+                            Now
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+                        <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                        <h2 class="text-sm tracking-widest title-font mb-1 font-medium">SPECIAL</h2>
+                        <h1
+                            class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                            <span>$72</span>
+                            <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+                        </h1>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>1gb Disk Space
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>50 Subdomains
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>100 Email Accounts
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Webmail Support
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>10gb Cloud Storage
+                        </p>
+                        <button
+                            class="flex items-center mt-auto text-white bg-gray-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-600 rounded">Buy
+                            Now
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+                        <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- About-Us section -->
+
+    <section class="text-gray-700 body-font" id="about">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">About-Us</h1>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="https://dummyimage.com/302x302">
+                        <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
+                            taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote
+                            bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
+                        <p class="text-gray-500">Senior Product Designer</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="https://dummyimage.com/300x300">
+                        <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
+                            taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote
+                            bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">ALPER KAMU</h2>
+                        <p class="text-gray-500">UI Develeoper</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="https://dummyimage.com/305x305">
+                        <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
+                            taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote
+                            bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
+                        <p class="text-gray-500">CTO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+
+    <!-- ************************ top cursor ************************* -->
+    <div class="container scrolltop float-right pr-5">
+        <i class="fa fa-arrow-up" onclick="topFunction()" id="myBTN"></i>
+    </div>
+
+    <!-- Contact-Us section -->
+
+    <footer class="text-gray-700 body-font" id="contact">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Contact-Us</h1>
+            </div>
+            <div class="flex flex-wrap md:text-left text-center order-first">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Company</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Awards</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Careers</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Testimonials</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Videos</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Insights</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Blogs</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">White Papers</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Case Studies</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Infographics</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Offices</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Bangalore</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Mumbai</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Delhi</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Chennai</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SUBSCRIBE</h2>
+                    <div
+                        class="flex xl:flex-no-wrap md:flex-no-wrap lg:flex-wrap flex-wrap justify-center md:justify-start">
+                        <input
+                            class="w-40 sm:w-auto bg-gray-100 rounded xl:mr-4 lg:mr-0 sm:mr-4 mr-2 border border-gray-400 focus:outline-none focus:border-indigo-500 text-base py-2 px-4"
+                            placeholder="email" type="text">
+                        <button
+                            class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Submit</button>
+                    </div>
+                    <p class="text-gray-500 text-sm mt-2 md:text-left text-center">Type your email-id
+                        <br class="lg:block hidden">for subscription of newsletter.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-200">
+            <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2"
+                        class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg>
+                    <span class="ml-3 text-xl">dkg Technologies</span>
+                </a>
+                <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2020 dkg Technologies —
+                    <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1"
+                        target="_blank"> Design & Developed By Dipesh Kumar Gupta</a>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                   <div class="social-icons">
+                       <a href="https://www.facebook.com/guptadipeshkr/"><i class="fa fa-facebook-square fa-2x" id="fb-set" aria-hidden="true"></i></a>
+                       <a href="https://twitter.com/officialdkg0295"><i class="fa fa-twitter-square fa-2x" id="tw-set" aria-hidden="true"></i></a>
+                       <a href="https://www.linkedin.com/in/dipesh-kumar-gupta-29b39068/"><i class="fa fa-linkedin-square fa-2x" id="li-set" aria-hidden="true"></i></a>
+                       <a href="https://www.youtube.com/user/dipeshhgupta"><i class="fa fa-youtube-square fa-2x" id="yt-set" aria-hidden="true"></i></a>
+                       <a href="https://www.instagram.com/officialdipeshgupta/"><i class="fa fa-instagram fa-2x" id="ig-set" aria-hidden="true"></i></a>
+                   </div>
+                </span>
+            </div>  
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+    <script src="main.js"></script>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
+</body>
+
+</html>
